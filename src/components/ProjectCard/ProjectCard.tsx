@@ -36,13 +36,15 @@ export const ProjectCard: React.FC<Props> = ({ project }) => {
           {/* {discount > 0 && <span className="product-card__discount">{`$${discountPrice}`}</span>} */}
         </div>
 
-        <span className="product-card__description">{description}</span>
+        <span className="product-card__description">{description.split(' ').slice(0, 15).join(' ') + '...'}</span>
 
-        <div className="product-card__skills-container">
-          {requiredSkills.map(skill => (<button className="product-card__skill">{skill}</button>))}
-        </div>
 
-        <div className="product-card__align"></div>
+
+        <div className="product-card__align">
+          <div className="product-card__skills-container">
+            {requiredSkills.map(skill => (<button className="product-card__skill">{skill}</button>))}
+          </div>
+        
 
         {/* <div className="product-card__features">
           <ul className="product-card__list">
@@ -83,6 +85,7 @@ export const ProjectCard: React.FC<Props> = ({ project }) => {
             />
 
           </button>
+          </div>
         </div>
       </div>
     </div>
