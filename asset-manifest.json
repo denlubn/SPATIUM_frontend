@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SPATIUM_frontend/static/css/main.2726c560.css",
+    "main.js": "/SPATIUM_frontend/static/js/main.312c7a89.js",
+    "static/media/FontsFree-Net-Mont-Bold.ttf": "/SPATIUM_frontend/static/media/FontsFree-Net-Mont-Bold.10a31626fbf3adcb20f0.ttf",
+    "static/media/FontsFree-regular.ttf": "/SPATIUM_frontend/static/media/FontsFree-regular.7b72d84e4b4adfcb4c7a.ttf",
+    "static/media/FontsFree-semibold.ttf": "/SPATIUM_frontend/static/media/FontsFree-semibold.47ca774f60043a817006.ttf",
+    "static/media/FavouritesHeartLike.svg": "/SPATIUM_frontend/static/media/FavouritesHeartLike.ae54e78ca2cd8a94f392.svg",
+    "static/media/Search.svg": "/SPATIUM_frontend/static/media/Search.553006995435feb612ee.svg",
+    "static/media/FavouritesFilledHeartLike.svg": "/SPATIUM_frontend/static/media/FavouritesFilledHeartLike.a3b711b5bd5e5f67f9a8.svg",
+    "index.html": "/SPATIUM_frontend/index.html",
+    "static/media/Close.svg": "/SPATIUM_frontend/static/media/Close.dc88a3f670a63fe2d422.svg",
+    "static/media/ArrowUp.svg": "/SPATIUM_frontend/static/media/ArrowUp.729bba0fa8a03b022cac.svg",
+    "main.2726c560.css.map": "/SPATIUM_frontend/static/css/main.2726c560.css.map",
+    "main.312c7a89.js.map": "/SPATIUM_frontend/static/js/main.312c7a89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2726c560.css",
+    "static/js/main.312c7a89.js"
+  ]
+}
