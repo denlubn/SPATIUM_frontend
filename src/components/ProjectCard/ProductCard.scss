@@ -2,6 +2,7 @@
 
 .product-card {
   &__container {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -75,6 +76,10 @@
     &:hover {
       border-color: $color-primary;
     }
+  }
+
+  &__align {
+    height: 100%;
   }
 
   &__features {

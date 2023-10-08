@@ -42,6 +42,8 @@ export const ProjectCard: React.FC<Props> = ({ project }) => {
           {requiredSkills.map(skill => (<button className="product-card__skill">{skill}</button>))}
         </div>
 
+        <div className="product-card__align"></div>
+
         {/* <div className="product-card__features">
           <ul className="product-card__list">
             {features.keys.map((key) => (
