@@ -1,0 +1,15 @@
+@import "../../main.scss";
+
+.home {
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__hackathon_name {
+    // @extend %uppercase-text;
+    @extend %h2-text;
+    color: $color-primary;
+  }
+}
